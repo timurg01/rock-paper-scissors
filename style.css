@@ -1,0 +1,43 @@
+html {
+    background-color: burlywood;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+button {
+    height: 100px;
+    width: 30%;
+    background-color: #87adde;
+    border: 2px solid #87adde;
+    font-size: 100%;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.winner {
+    text-align: center;
+}
